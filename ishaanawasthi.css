@@ -1,0 +1,130 @@
+*{
+    scroll-padding-top: 4rem;
+    scroll-behavior: smooth;
+}
+.home-txt h1{
+    background-color: darkgreen;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 55px;
+}
+.photos-txt h2{
+    background-color: darkgreen;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 39px; 
+    text-align: center;
+}
+.ul ul li{
+    color: green;
+    font-size: 21px;
+}
+ol li{
+    color: white;
+}
+h4{
+    color:green;
+}
+caption{
+    color: white;
+}
+td{
+    color: white;
+}
+tr{
+    color: white;
+}
+body{
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1b1b1b;
+}
+.home-txt p{
+    color: white;
+    font-size: 21px;
+    text-align: justify;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    padding: 20px 9px;
+    background-color: darkgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.navbar{
+    padding-left: 33px;
+    padding-right: 33px;
+}
+.navbar a{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 35px;
+    transition: 1s;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: black;
+}
+.home{
+    width:100%;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(17rem,auto));
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 0%;
+}
+.ishaan-img img{
+    border: 5px solid darkgreen;
+    height: 459px;
+    width: 459px;
+}
+.ishaan-img img:hover{
+    width: 477px;
+    height: 477px;
+    border: 4px solid red;
+}
+.ishaan-facts ol li{
+    font-size: 25px;
+    color: white;
+}
+.ishaan-facts h2{
+    font-size: 39px;
+    color: white;
+    background-color: darkgreen;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about h2{
+    background-color: darkgreen;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 39px;
+}
+.about h4{
+    color: green;
+    text-align: justify;
+    font-size: 18px;
+}
+.table h2{
+    background-color: darkgreen;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 39px;
+}
